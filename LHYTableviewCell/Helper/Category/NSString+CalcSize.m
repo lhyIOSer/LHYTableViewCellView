@@ -10,4 +10,14 @@
 
 @implementation NSString (CalcSize)
 
+- (CGFloat)calcTextHeighttText:(NSString *)aText withWidth:(CGFloat)aWidth withAttributes:(NSDictionary *)aDict {
+    CGSize size = [aText boundingRectWithSize:CGSizeMake(aWidth, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:aDict context:nil].size;
+    return ceil(size.height);
+}
+
+- (CGFloat)calcTextWidthText:(NSString *)aText withWidth:(CGFloat)aWidth withAttributes:(NSDictionary *)aDict {
+    CGSize size = [aText boundingRectWithSize:CGSizeMake(aWidth, MAXFLOAT) options:NSStringDrawingUsesLineFragmentOrigin attributes:aDict context:nil].size;
+    return ceil(size.width);
+}
+
 @end
