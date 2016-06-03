@@ -2,7 +2,7 @@
 
 ##
 描述说明
-/Users/lhy/Desktop/lhy/LHYTableviewCell/tips.png
+![](https://github.com/lhyIOSer/LHYTableViewCellView/blob/master/tips.png)  
 
 ##
 LHYTableViewCellVie 中目前封装了六种常用的cell的组织形式
