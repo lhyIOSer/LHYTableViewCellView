@@ -1,7 +1,6 @@
 # LHYTableViewCellView
 
 ##
-描述说明
 ![](https://github.com/lhyIOSer/LHYTableViewCellView/blob/master/tips.png)  
 
 ##
